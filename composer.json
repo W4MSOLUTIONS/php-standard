@@ -1,0 +1,18 @@
+{
+    "name": "w4msolutions/php-standard",
+    "description": "Custom W4M PHP standards",
+    "type": "library",
+    "license": "proprietary",
+    "authors": [
+        {
+            "name": "Nelson Dias",
+            "homepage": "https://w4msolutions.com",
+            "role": "Developer"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {
+        "php": ">=5.6",
+        "squizlabs/php_codesniffer": "*"
+    }
+}

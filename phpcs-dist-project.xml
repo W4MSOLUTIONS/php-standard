@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ruleset name="phpcs-myproject" namespace="w4msolutions\myproject">
+    <!-- Replace "myproject" by your project name -->
+
+    <arg name="basepath" value="."/>
+
+    <!-- Exclude directories form checks -->
+    <exclude-pattern>*/.gitlab/*</exclude-pattern>
+    <exclude-pattern>*/.vagrant/*</exclude-pattern>
+    <exclude-pattern>*/tests/*</exclude-pattern>
+    <exclude-pattern>*/vagrant/*</exclude-pattern>
+    <exclude-pattern>*/vendor/*</exclude-pattern>
+    <exclude-pattern>*/docker/*</exclude-pattern>
+
+    <!-- Include the W4M PHP Standards -->
+    <rule ref="./vendor/w4msolutions/php-standard/phpcs.xml">
+        <!-- When including, disable one or more sniffs -->
+        <!-- <exclude name="PSR1.Classes.ClassDeclaration.MissingNamespace"/> -->
+    </rule>
+</ruleset>
