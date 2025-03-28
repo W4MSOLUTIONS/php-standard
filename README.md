@@ -21,7 +21,7 @@ Add the W4M PHP Standards to your PHP project using composer
 w4msolutions/php-standard will install [PHP_CodeSniffer](https://github.com/squizlabs/PHP_CodeSniffer) as a dependency (squizlabs/php_codesniffer)
 
 ```bash
-composer require --dev w4msolutions/php-standard
+composer require --dev "w4msolutions/php-standard:1.*"
 ```
 
 After install, `composer.json` should look like:
