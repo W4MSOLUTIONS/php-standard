@@ -4,7 +4,7 @@ This is the W4M PHP Standards customized PHP standards based on the PSR-2 PHP St
 
 It is for W4M Internal use only!
 
-For using with PHP > 8.1 use versions 2.x.x
+For using with PHP >= 8.1 use versions 1.x.x
 
 ## TO COVER
 
@@ -39,7 +39,7 @@ After install, `composer.json` should look like:
     "require": {
     },
     "require-dev": {
-        "w4msolutions/php-standard": "*"
+        "w4msolutions/php-standard": "^2"
     }
 }
 ```
