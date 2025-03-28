@@ -4,6 +4,8 @@ This is the W4M PHP Standards customized PHP standards based on the PSR-2 PHP St
 
 It is for W4M Internal use only!
 
+For using with PHP > 8.1 use versions 2.x.x
+
 ## TO COVER
 
 - Multiple blank lines - one line at most
