@@ -2,9 +2,9 @@
 
 This is the W4M PHP Standards customized PHP standards based on the PSR-2 PHP Standard.
 
-It is for W4M Internal use only!
+**It is for W4M Internal use only!**
 
-For using with PHP >= 8.1 use versions 1.x.x
+> For using with PHP < 8 use versions 1.x.x
 
 ## TO COVER
 
@@ -25,6 +25,8 @@ composer require --dev w4msolutions/php-standard
 ```
 
 After install, `composer.json` should look like:
+
+> For using with PHP < 8 use versions 1.x.x
 
 ```json
 {
