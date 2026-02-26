@@ -2,6 +2,13 @@
 
 <!--- next entry here -->
 
+## 2.0.0
+2026-02-26
+
+### Changes
+
+- update package requirement to PHP >= 8.0
+
 ## 1.1.8
 2021-11-25
 
